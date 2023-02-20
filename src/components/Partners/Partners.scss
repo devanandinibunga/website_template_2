@@ -1,0 +1,127 @@
+// .trax-scroll-container{
+//     margin: 2% 0%;
+//     width: 100%;
+//     position: relative;
+//     // overflow: scroll;
+//   transform: translate3d(0, 0, 0);
+// }
+// .trax-scroll-container>div{
+//     margin: 2% 0%;
+//     width: 100%;
+//     // position: relative;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     // height: 100%;
+//     // transform: translate3d(0, 0, 0);
+//     // overflow: scroll;
+//   transform: translate3d(0, 0, 0);
+// }
+// .trax-scroll-text{
+//     overflow: hidden;
+//     position: absolute;
+//     font-size: 1.5em;
+//     // position: absolute;
+//     white-space: nowrap;
+//     /* top: 92vh; */
+//     white-space: nowrap;
+
+// }
+// .trax-scroll-text > * {
+//     display: inline-block;
+//     margin-right: 50px;
+//     /* margin-left: 50px; */
+//     animation: title 5s linear infinite;
+//     /* animation-delay: 20s; */
+//     /* width: 100%; */
+// }
+// @keyframes title {
+// //     0% {transform: translateX(0);}
+//   100% {transform: translateX(-233px);}
+// //   20% {transform: translateX(433px);}
+// //   30% {transform: translateX(233px);}
+//   }
+
+// .tech-slideshow {
+//     height: 200px;
+//     max-width: 100%;
+//     margin: 0 ;
+//     position: relative;
+//     overflow: hidden;
+//     transform: translate3d(0, 0, 0);
+//   }
+  
+//   .tech-slideshow > div {
+//     height: 200px;
+//     width: 500px;
+//     // background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     transform: translate3d(0, 0, 0);
+//   }
+//   .tech-slideshow .mover-1 {
+//     animation: moveSlideshow 20s linear infinite;
+//     // animation-delay: 1ms;
+//   }
+
+  
+//   @keyframes moveSlideshow {
+//     100% { 
+//       transform: translateX(-66.6666%);  
+//     }
+//   }
+
+.container {
+    // overflow: hidden;
+    height:160px; 
+  position:relative; 
+  overflow:hidden;
+  margin-top: 8%;
+  }
+  
+  .sliding-background {
+    // background: url("..path/to/image") repeat-x;
+    // height: 160px;
+    // width: 100%;
+    // animation: slide 4s infinite ;
+    // border: 1px solid red;.
+    position:absolute; 
+    top:0px; 
+    left:0px; 
+    overflow:hidden; 
+    white-space: nowrap;
+    animation: slide 5s linear infinite;
+  }
+  .sliding-background img{
+    margin-right: 2%;
+  }
+  @keyframes slide{
+
+    0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-40%, 0);
+  }
+    // 0% {
+    //   transform: translate3d(0, 0, 0);
+    // }
+    // 20% {
+    //     transform: translate3d(-20%, 0, 0);
+    //   }
+    //   40% {
+    //     transform: translate3d(-40%, 0, 0);
+    //   }
+    //   60% {
+    //     transform: translate3d(-60%, 0, 0);
+    //   }
+    //   80% {
+    //     transform: translate3d(-80%, 0, 0);
+    //   }
+
+    // 100% {
+    //   transform: translate3d(-100%, 0, 0);
+    // }
+  }

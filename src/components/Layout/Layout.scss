@@ -1,0 +1,111 @@
+.layout-container{
+    background-color: #f7f7f7;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5% 0%;
+}
+.layout-image-container{
+    width: 90%;
+}
+.layout-container-image{
+    width: 100%;
+    // padding:6% 4% ;
+}
+.layout-right-container{
+    width: 90%;
+    padding:0% 5%;
+}
+.layout-right-container-title{
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    // padding: 1%;
+    line-height: 30px;
+}
+.layout-right-container-para{
+    font-size: 15px;
+    text-align: left;
+    color: #7e7878;
+    font-weight: 400;
+    font-family: "Roboto";
+    // padding: 1%;
+    line-height: 30px;
+    padding-right: 8%;
+}
+.layout-right-container-btn{
+    font-size: 14px;
+    text-align: left;
+    background-color:#47c9e5 ;
+    color: white;
+    border: 0 solid;
+    border-radius: 30px;
+    padding: 3% 6%;
+}
+
+@media (min-width:"768px"){
+     .layout-container{
+        .layout-image-container{
+            width: 100%;
+        }
+        .layout-right-container{
+            width: 90%;
+        }
+        .layout-right-container-title{
+            font-size: 28px;
+        }
+        .layout-right-container-para{
+            font-size: 18px;
+            padding: 3% 0%;
+        }
+        .layout-right-container-btn{
+            font-size: 15px;
+        }
+     }   
+}
+
+@media (min-width:"1024px"){
+    .layout-container{
+        // width: 100%;
+        // flex-wrap: wrap;
+        margin-top: 0%;
+    .layout-image-container{
+        width: 48%;
+        padding:0%;
+        padding-top: 1%;
+    }
+    .layout-right-container{
+        width: 44%;
+        padding:0% 5% 0% 2%;
+        line-height: 50px;
+    }
+    .layout-right-container-btn{
+        font-size: 15px;
+        padding: 1% 6%;
+    }
+}
+}
+
+@media (min-width:"1064px"){
+    .layout-container{
+        // width: 100%;
+        // flex-wrap: wrap;
+        margin-top: 0%;
+    .layout-image-container{
+        width: 48%;
+        padding:0%;
+        // padding-top: 0%;
+    }
+    .layout-right-container{
+        width: 44%;
+        padding:3% 5% 0% 2%;
+        line-height: 50px;
+    }
+    .layout-right-container-btn{
+        font-size: 15px;
+        padding: 1% 6%;
+    }
+}
+}

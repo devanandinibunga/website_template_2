@@ -1,0 +1,49 @@
+.jevelin-header-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #DCDCDC;
+    padding:2% 1% 5% 1%;
+    background-color: transparent;
+    // color: white;
+}
+
+#top-con{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.jevelin-header-each-navlink{
+    // color: white;
+    font-size: 20px;
+    margin-right: 2%;
+    border-bottom: 1px solid #AAAAAA;
+}
+.offcanvas-header button{
+    // : #101010;
+    background-color: white;
+
+}
+#offcanvasNavbar-expand-lg{
+    background-color: black;
+    color: #AAAAAA;
+}
+.top-con-icon{
+    font-size:35px;
+    padding-top: 2%;
+}
+sup.ant-scroll-number.ant-badge-count{
+    background-color: aqua;
+    border: 0 !important;
+}
+// .Navbar.fixed --scrolled {
+//     /* change background-color to whatever you want */
+//     background-color: grey;
+//   }
+@media (min-width:"768px"){
+    #top-con{
+        width: 90%;
+    }
+    .top-con-icon{
+        font-size: 30px;
+    }
+}

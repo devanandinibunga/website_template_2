@@ -1,0 +1,152 @@
+.cover-page-container{
+    background-image: url('https://jevelin.shufflehound.com/landing/wp-content/uploads/sites/6/2016/05/Home_11_img_1.jpg');
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    // width: 100%;
+    padding: 30% 0% 200px 0%;
+    // padding: 10% 5%;
+    margin-top: -100px;
+}
+
+.cover-page-container-title{
+    color:white;
+    font: 24px, "Raleway";
+    margin-top: 0%;
+    padding: 15% 4% 1% 4%;
+    font-weight: 300;
+}
+.cover-page-container-span{
+    color: #47c9e5;
+    font-style: italic;
+    font-weight: 650;
+    font-family: "kalam" !important;
+}
+.cover-page-container-para{
+    color:#DCDCDC;
+    font: 20px Kalam;
+    font-style: italic;
+    margin-top: 0%;
+    padding: 2% 8%;
+    font-weight: 500;
+    line-height: 30px;
+}
+.cover-page-input-container{
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.cover-page-input{
+    border: 0;
+    border-radius: 25px;
+    padding: 5% 6%;
+    width: 70%;
+    margin: 3% 0%;
+}
+.cover-page-input-email{
+    border: 0;
+    border-radius: 25px;
+    padding: 5% 6%;
+    width: 70%;
+    margin: 3% 0%;
+}
+.cover-page-button{
+    width: 83%;
+    border: 0;
+    border-radius: 30px;
+    padding: 5%;
+    margin: 3% 0%;
+    color: white;
+    font-weight: 600;
+    font-size:15px;
+    background-color: #47c9e5;
+}
+.cover-page-container-bottom-para{
+  color: #DCDCDC;  
+  border-top: 1px solid #DCDCDC;
+  padding: 5% 0%;
+  width: 80%;
+  margin: auto;
+  font-size: 13px;
+}
+.cover-page-container-bottom-para-span{
+    color: #47c9e5;
+}
+.cover-page-container-bottom-para-span::before{
+    content: "|";
+    padding: 4%;
+    padding-top: 1%;
+}
+
+@media (min-width:'768px'){
+    .cover-page-container{
+        padding: 15% 5%;
+    }
+    .cover-page-input{
+        width: 25%;
+        padding: 3%;
+        margin: 1% 2%;
+        border-radius: 30px;
+    }
+
+.cover-page-input-container{
+    margin-bottom: 6%;
+}
+    .cover-page-input-email{
+        width: 60%;
+        padding: 3%;
+        border-radius: 30px;
+    }
+    .cover-page-button{
+        width: 65%;
+        padding: 3%;
+        border-radius: 30px;
+    }
+    .cover-page-container-bottom-para{
+        font-size: 16px;
+    }
+    .cover-page-container-bottom-para-span::before{
+        padding: 2%;
+    }
+}
+
+@media (min-width:'1024px'){
+    .cover-page-container-title{
+        font-size: 37px;
+    }
+    .cover-page-container-para{
+        font-size: 27px;
+    }
+    .cover-page-container{
+        padding: 15% 12%;
+    }
+    .cover-page-input-container{
+        margin-bottom: 6%;
+    }
+    .cover-page-input{
+        width: 29%;
+        padding: 2%;
+        margin: 1% 2%;
+        border-radius: 30px;
+    }
+    .cover-page-input-email{
+        width: 63%;
+        padding: 2%;
+        border-radius: 30px;
+    }
+    .cover-page-button{
+        width: 63%;
+        padding: 2%;
+        border-radius: 30px;
+    }
+    .cover-page-container-bottom-para{
+        font-size: 20px;
+        width: 70%;
+    }
+    .cover-page-container-bottom-para-span::before{
+        padding: 2%;
+    }
+}

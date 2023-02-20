@@ -1,0 +1,123 @@
+.services-container{
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+}
+.services-main-container{
+    padding:15% 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-inner-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 18% 5% ;
+    // background-color:pink ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // box-shadow: 0 25px 35px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+}
+
+.services-inner-container:hover{
+    box-shadow: 0 25px 35px -7px rgb(0 0 0 / 10%), 0 -22px 20px -10px rgb(0 0 0 / 10%);
+}
+
+.services-inner-container-icon{
+    font-size: 35px;
+    padding: 0%;
+    margin: 0%;
+    color: #8d8d8d;
+}
+.services-inner-container-title{
+    font-size: 18px;
+    color: #3f3f3f;
+    font-family: "Raleway";
+}
+.services-inner-container-para{
+    font-size: 15px;
+    color: #8d8d8d;
+    line-height: 25px;
+    font-family: "Raleway";
+}
+.services-inner-container-btn{
+    font-size: 15px;
+    color: #8d8d8d;
+    border: 0 solid;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding:6% 9%;
+    width: 50%;
+    font-family: "Raleway";
+}
+
+.services-bottom-container{
+    // padding: 4% 8% 8% 8%;
+    padding: 95px 20px 105px 20px;
+}
+.services-bottom-container-para{
+    font-size: 27px;
+    color: #8d8d8d;
+    font-weight: 300;
+    line-height: 40px;
+    // padding-bottom: 8%;
+}
+strong{
+    color: black;
+}
+@media (min-width:"768px"){
+    .services-bottom-container{
+        padding-top: 0%;
+    }
+    .services-inner-container-title{
+        font-size: 23px;
+    }
+    .services-inner-container-para{
+        font-size: 20px;
+        padding: 0% 5%;
+    }
+    .services-inner-container-btn{
+        border-radius: 30px;
+        padding:3% 6%;
+        width: 30%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:"1024px"){
+
+    .services-container{
+        margin-top: -333px;
+        padding: 0%;
+        width: 100%;
+    }
+    .services-main-container{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 8%;
+    }
+    .services-inner-container{
+        width: 30%;
+        padding:5% ;
+        margin: 0%;
+    }
+    .services-inner-container-title{
+        font-size: 20px;
+    }
+    .services-inner-container-para{
+        font-size: 15px;
+        padding: 0% 5%;
+    }
+    .services-inner-container-btn{
+        border-radius: 30px;
+        padding:3% 6%;
+        width: 30%;
+        font-size: 13px;
+    }
+    .services-bottom-container{
+        padding-top: 0%;
+        width: 80%;
+        margin: auto;
+    }
+}

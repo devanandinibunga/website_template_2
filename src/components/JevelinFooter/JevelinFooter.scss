@@ -1,0 +1,48 @@
+.jevelin-footer-container{
+    width: 100%;
+}
+.jevelin-footer-icon-container{
+    background-color: #f7f7f7;
+    color: #8d8d8d;
+    padding: 2% 1%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.jevelin-footer-icon{
+    font-size: 30px;
+    // padding-right: 8%;
+}
+.jevelin-footer-img{
+    width: 20%;
+    margin: auto;
+    display: block;
+        // text-align: center;
+        // align-items: center;
+}
+.jevelin-footer-para{
+    width: 100%;
+    font: 20px Raleway;
+    padding: 3% 0%;
+    // margin: auto;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width:'1024px'){
+
+    .jevelin-footer-img{
+        width: 20%;
+        // text-align: left;
+        // margin: 0%;
+        // display: inline;
+    }
+    .jevelin-footer-para{
+        width: 100%;
+        // text-align: right;
+        // margin-right: auto; 
+        // display: inline;
+        // align-self: flex-end;
+        // justify-content: flex-end;
+    }
+}
